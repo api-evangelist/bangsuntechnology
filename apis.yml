@@ -1,23 +1,51 @@
 aid: bangsuntechnology
+
 name: Bangsuntechnology
-description: 'Bangsuntechnology is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Bangsuntechnology is a stub entry created from the API Evangelist secondary‑market harvest. No public website, documentation, or API endpoints were discovered for this entity despite web searches. It is retained in the registry for potential future discovery and to maintain completeness of the provider catalog.'
+
 url: https://raw.githubusercontent.com/api-evangelist/bangsuntechnology/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
 - Company
-apis: []
+- Technology
+- Startup
+- Data
+- Services
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/bangsuntechnology-hosts.yml
+- type: Vendors
+  url: vendors/bangsuntechnology-vendors.yml
+- type: DomainSecurity
+  url: security/bangsuntechnology-domain-security.yml
 - type: Website
   url: https://equityzen.com/company/bangsuntechnology
+
+apis: []
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 3
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
